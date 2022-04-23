@@ -32,8 +32,13 @@
     <h3><li>Changes</li></h3>
     <p>Any changes made in this directory will need to be pushed for it to show on your repo, changes include any modifications even deletion of a file or renaming</p>
     <P>If you did move some files to this new repo directory you will already have a change ready to be staged, if you didn't you can just create a text file using the touch command</P>
-    <p>Now once you've made a change if you do the command <strong>( git status )</strong> it should show your current file in red which indicates it's not staged, to stage any changes made you do <strong>( git add NameOfFile.txt )</strong></p>
-    <p><em>Note: if you want to add multiple files to the staging area you do <strong>( git add . )</strong></em></p>
+    <p>Now once you've made a change if you do the command <strong>( git status )</strong> it should show your current file in red which indicates it's not staged, to stage any changes made you do <strong>( git add NameOfFile.txt )</strong> if you do the git status command again it should now show your file/s in green indicating they're ready for a commit</p>
+    <p><em>Note: if you want to add multiple files to the staging area you do <strong>( git add . )</strong> and this adds all files to the staging area</em></p>
+
+    <h3><li>Committing</li></h3>
+    <p>The next stage after you've added your changes to the staging area is to commit these changes, the purpose of a commit is to make it easier to navigate the versions of your files and see what changes were made (especially useful when working with others) so its always best these contain a lot of accurate information</p>
+    <p>To do a commit you do the commands <strong>( git commit -m "message describing what you've done" )</strong>, if you want a real life example, before I push these changes to my repo my commit command is going to look like this $ git commit -m "expanded step 5: changes, added step 6: committing, typo fixes"</p>
+    <P><em>Note: sometimes you might forgot what you've added, deleted or changed so what I like to do is have a txt document opened while coding and update it as I go along so the commit message is very accurate, also make sure your actual commit message is within speech marks " "</em></P>
 
     
 </ol>

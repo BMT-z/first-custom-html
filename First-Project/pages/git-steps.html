@@ -27,7 +27,13 @@
 
     <h3><li>Moving</li></h3>
     <P>Now the repo and our local files should be connected, to confirm it connected correctly you can move into the new folder (using cd) that was created then do the command <strong>( git remote -v )</strong> which should display the url to the relevant repo</P>
-    <p>I'm assuming the index,html or whatever files were created before the repo linking, so wht you should do now is close visual studio code if you have it open to avoid any errors, then find the path to the repo file using cd and the target files using a combination of cd and ls, once you find the targe path do the <strong>( mv )</strong> command then target the file you want to move followed by the target destination, example <strong>( mv Downloads/test1.txt Documents/tests )</strong> </p>
+    <p>I'm assuming the index,html or whatever files were created before the repo linking, so what you should do now is close visual studio code if you have it open to avoid any errors, then find the path to the repo file using cd and the target files using a combination of cd and ls, once you find the targe path do the <strong>( mv )</strong> command then target the file you want to move followed by the target destination, example <strong>( mv Downloads/test1.txt    repos/tests )</strong> </p>
+
+    <h3><li>Changes</li></h3>
+    <p>Any changes made in this directory will need to be pushed for it to show on the repo, changes include any modifications even deletion of a file or renaming</p>
+    <P>If you did move some files to this new repo directory you will already have a change ready to be staged, if you didn't you can just create a text file using the touch command</P>
+    <p>Now once you've made a change if you do the command <strong>( git status )</strong> it should show your current file in red which indicates it's not staged, to stage any changes made you do <strong>( git add NameOfFile.txt )</strong></p>
+    <p><em>Note: if you want to add multiple files to the staging area you do <strong>( git add . )</strong></em></p>
 
     
 </ol>
